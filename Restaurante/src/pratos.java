@@ -18,4 +18,10 @@ public class pratos {
 	public void setDescricao (String descricao){
 		this.descricao = descricao;
 	}
+	
+	public void igrendientesPrato (){
+		String igrediente1;
+		String igrediente2;
+		String igrediente3;
+	}
 }
