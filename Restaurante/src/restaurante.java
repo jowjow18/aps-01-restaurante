@@ -1,8 +1,6 @@
 
 public class restaurante {
 
-	pratos p = new pratos();
-	
 	private String nome;
 	private String descricao;
 	private double preco;
@@ -19,7 +17,7 @@ public class restaurante {
 		this.preco = preco;
 		}
 	
-	public String mostrarCardapio (){
+	public String setmostrarCardapio (){
 		return nome + ": " + preco
 				+ descricao;
 	}
