@@ -22,4 +22,8 @@ public class restaurante {
 				+ descricao;
 	}
 	
+	public void Pedido(){
+		System.out.println("Informe seu pedido: Prato1, Prato2, Prato3, Prato4, Prato5");
+	}
+	
 }
